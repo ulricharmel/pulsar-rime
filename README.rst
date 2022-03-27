@@ -6,16 +6,20 @@ Installation
 Installation from source_,
 working directory where source is checked out
 
-.. code-block:: bash
-  
-    $ pip install .
-
-Pre release from git 
+Do everything in virtual environment
 
 .. code-block:: bash
-  
-    $ pip install -e https://github.com/ulricharmel/pulsar-rime.git
-
+    
+    $ virtualenv -p python3.8 venv
+    
+    $ source venv/bin/activate
+    
+    $ venv
+    
+    $ git clone https://github.com/ulricharmel/pulsar-rime.git
+ 
+    $ pip install -e pulsar-rime/
+ 
 To run and see options
 
 .. code-block:: bash
